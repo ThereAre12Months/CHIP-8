@@ -1,0 +1,63 @@
+[GRAPHICS]
+# default: [640, 320]
+#output_resolution = [640, 320]
+
+# options: true, false; default: true
+#preserve_aspect_ratio = true
+
+# options: true, false; default: false
+#fullscreen = false
+
+# options: true, false; default: true
+#resizable = true
+
+# options: nearest, smooth; default: nearest
+#scaling_method = "nearest"
+
+# format: [R, G, B]; default: [50, 50, 50]
+#bg_color = [50, 50, 50]
+
+# format: [R, G, B]; default: [0, 0, 0]
+#off_color = [0, 0, 0]
+
+# format: [R, G, B]; default: [255, 255, 255]
+#on_color = [255, 255, 255]
+
+[DEBUG]
+
+# options: true, false; default: false
+#show_fps = false
+
+# options: true, false; default: false
+#live_mem_view = false
+
+# default: 2
+#mem_view_scale = 2
+
+[SYSTEM]
+# format: [W, H]; default: [64, 32]
+#resolution = [64, 32]
+
+# options: true, false; default: true
+#vsync = true
+
+# default: 60; ignored when vsync==true; unlimited when fps==0
+#fps = 60
+
+# Amount of instructions per frame
+# options:
+#  0 (unlimited)
+#  1 - ...
+# default: 100
+#ipf = 100
+
+[QUIRKS]
+# see chip8.py or https://github.com/Timendus/chip8-test-suite/blob/main/README.md#quirks-test for details
+
+#vF_reset  = true
+#memory    = true
+#disp_wait = true
+#disp_wait_faker = false
+#clipping  = true
+#shifting  = false
+#jumping   = false
